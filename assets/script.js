@@ -85,7 +85,7 @@ function enviarMalaPalabra(transcript, audioBlob) {
     formData.append('file', audioBlob, 'audio.wav');
 
     /* const url = 'http://127.0.0.1:8000/api/evento/evidencia'; */
-    const url = 'http://192.241.150.219:8080/api/evento/evidencia';
+    const url = 'http://192.241.150.219/api/evento/evidencia';
 
     fetch(url, {
         method: 'POST',
